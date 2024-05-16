@@ -4,6 +4,11 @@ import { Theme, css } from 'antd-style';
 // overflow: hidden;
 // ref: https://zhuanlan.zhihu.com/p/113855026
 export default ({ token }: { prefixCls: string; token: Theme }) => css`
+  @import url("https://cdn.jsdelivr.net/npm/source-code-pro@2.38.0/source-code-pro.min.css")
+  @import url("https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-gb-screen@1.0.6/font.min.css");
+  html, body, #__next, *{
+      font-family:"Source Code Pro", "LXGW WenKai GB Screen","HarmonyOS Sans","Segoe UI","SF Pro Display",-apple-system,BlinkMacSystemFont,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif,"HarmonyOS Sans SC","PingFang SC","Hiragino Sans GB","Microsoft Yahei UI","Microsoft Yahei","Source Han Sans CN",sans-serif,"Segoe UI Emoji","Segoe UI Symbol","Apple Color Emoji","Twemoji Mozilla","Noto Color Emoji","Android Emoji" !important;
+  };
   html,
   body,
   #__next {
