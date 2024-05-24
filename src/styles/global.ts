@@ -46,7 +46,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     }
 
     ::-webkit-scrollbar-track {
-      background-color: transparent;
+      background-color: #fff;
     }
   }
 `;
